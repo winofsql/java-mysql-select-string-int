@@ -11,6 +11,8 @@ public class Main {
         try {
             conn = DriverManager.getConnection(
                 "jdbc:mysql://localhost/lightbox?user=root&password=&characterEncoding=UTF-8"
+                // ▼ PostgreSQL
+                // "jdbc:postgresql://localhost:5432/lightbox?user=postgres&password=trustno1&charSet=utf-8;"
             );
 
             // ステートメント
